@@ -1,0 +1,7 @@
+id = 0 - bootcamper name: Ufuk 
+id = 1 - bootcamper name: Eline 
+id = 2 - bootcamper name: Filip 
+id = 3 - bootcamper name: Michael 
+id = 4 - bootcamper name: Luka 
+id = 5 - bootcamper name: Alexia 
+id = 6 - bootcamper name: Daniela 
