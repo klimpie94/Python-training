@@ -1,5 +1,5 @@
-from python_zen import import_this_without_side_effect
+import python_zen
 
 # As the main function is not imported we can only use the function
 # from the python_zen module...
-import_this_without_side_effect()
+python_zen.import_this_without_side_effect()

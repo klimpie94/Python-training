@@ -25,7 +25,7 @@ for area in metro_areas:
 # each element with 10^6. We can use mapping to apply this lambda on
 # each element of metro areas :)
 
-calculate_millions = lambda metropolis: "Not implemented"
+calculate_millions = lambda metropolis: metropolis.pop * 1000000
 
 print(list(map(calculate_millions, metro_areas)))
 
@@ -33,6 +33,6 @@ print(list(map(calculate_millions, metro_areas)))
 # in the south hemisphere. We can use filter to apply this lambda on each element of
 # metro areas :)
 
-south_hemisphere = lambda metropolis: "Not implemented"
+south_hemisphere = lambda metropolis: metropolis.coord.lat < 0
 
 print(list(filter(south_hemisphere, metro_areas)))
