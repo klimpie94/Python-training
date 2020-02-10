@@ -34,7 +34,11 @@ def simple_tokenizer(text):
 
 def flexible_word_count(text, *args):
     tokenized_text = simple_tokenizer(text)
-    return "Not implemented"
+    word_dict = {}
+    for word in tokenized_text:
+        if word in args:
+            word_dict.update({word: word_dict.get(word, 0) + 1})
+    return word_dict
 
 
 print(flexible_word_count(news_text, "hij", "geven"))
