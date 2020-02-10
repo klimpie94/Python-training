@@ -3,7 +3,7 @@ import pandas as pd
 
 
 def read_csv_files(file_path):
-    pass
+    return pd.read_csv(file_path)
 
 
 def filter_films(dataframe):

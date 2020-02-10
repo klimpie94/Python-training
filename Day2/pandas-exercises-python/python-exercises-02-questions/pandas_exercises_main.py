@@ -20,4 +20,13 @@ EXERCISE_OUTPUT_PATH = os.path.join(DATA_PATH, "analysis.csv")
 
 if __name__ == "__main__":
 
-    print("No implementation")
+    ### question 1 ###
+    categories_df = read_csv_files(IMDB_CATEGORY_PATH)
+    facts_df = read_csv_files(IMDB_FACTS_PATH)
+
+    print(facts_df["type"].unique())
+
+    ### question 2 ###
+
+    print(categories_df.head())
+    print(facts_df.head())
