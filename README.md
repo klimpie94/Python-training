@@ -2,7 +2,7 @@
 This is a repo containing the content and exercises of the 3 day long Python training given by Nazli and Anis.
 
 ### Repo layout
-
+Alexia
     .
     ├── Day1
         ├── powerpoint
