@@ -1,5 +1,5 @@
 # 2020 Data Engineering Bootcamp - LINKIT
-This is a repo containing the content and exercises of the 3 day long Python training given by Nazli and Anis.
+This is a repo containing the content and exercises of the 3 day long Python training given by Nazli and Anis. Update
 
 ### Repo layout
 Dana
